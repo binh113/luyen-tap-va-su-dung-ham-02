@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function reverse(num) {
+        num = parseInt(prompt("nhập độ dài"));
+        let arr = [];
+        for (i = 0; i < num; i++) {
+            let n = parseInt(prompt("giá trị"));
+            arr.push(n);
+        }
+        arr.reverse()
+        return arr;
+    }
+
+    alert(reverse())
+</script>
+</body>
+</html>

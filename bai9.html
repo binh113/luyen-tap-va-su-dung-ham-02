@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkIk(arrChk, arrRand) {
+        let count = 0;
+        for (let i = 0; i < arrChk.length; i++) {
+            if (arrChk[i] === arrRand) {
+                return "số lần phần tủ xuất hiện" + count++;
+            } else {
+                alert("-1")
+            }
+        }
+    }
+
+    let array = ["1", "2", "3", "4", "5", "binh", "1"]
+    let a = prompt()
+    alert(checkIk(array, a))
+
+</script>
+</body>
+</html>

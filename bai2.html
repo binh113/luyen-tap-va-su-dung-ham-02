@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let result = 0;
+
+    function areaCircle(num) {
+        result = Math.PI * num * num;
+        return result;
+    }
+
+    function perimeterCircle(num) {
+        result = 2 * Math.PI * num;
+        return result;
+    }
+    let number = parseFloat(prompt("nhập số"));
+    alert("diện tích hình tròn " + areaCircle(number));
+    alert("chu vi hình tròn " + perimeterCircle(number));
+</script>
+</body>
+</html>
